@@ -1,0 +1,14 @@
+D:\engineering\dotnet\sqlcodegen\code\R1.1\app\bin\Debug\Default.datatypes
+D:\engineering\dotnet\sqlcodegen\code\R1.1\app\bin\Debug\Default.names
+D:\engineering\dotnet\sqlcodegen\code\R1.1\app\bin\Debug\SqlCodeGen.exe.config
+D:\engineering\dotnet\sqlcodegen\code\R1.1\app\bin\Debug\SqlCodeGen.exe
+D:\engineering\dotnet\sqlcodegen\code\R1.1\app\bin\Debug\SqlCodeGen.pdb
+D:\engineering\dotnet\sqlcodegen\code\R1.1\app\bin\Debug\BigWoo.Common.dll
+D:\engineering\dotnet\sqlcodegen\code\R1.1\app\bin\Debug\SqlCodeGenSupport.dll
+D:\engineering\dotnet\sqlcodegen\code\R1.1\app\bin\Debug\SqlCodeGenSupport.pdb
+D:\engineering\dotnet\sqlcodegen\code\R1.1\app\bin\Debug\BigWoo.Common.pdb
+D:\engineering\dotnet\sqlcodegen\code\R1.1\app\obj\Debug\SqlCodeGen.csprojAssemblyReference.cache
+D:\engineering\dotnet\sqlcodegen\code\R1.1\app\obj\Debug\SqlCodeGen.csproj.CoreCompileInputs.cache
+D:\engineering\dotnet\sqlcodegen\code\R1.1\app\obj\Debug\SqlCodeGen.csproj.CopyComplete
+D:\engineering\dotnet\sqlcodegen\code\R1.1\app\obj\Debug\SqlCodeGen.exe
+D:\engineering\dotnet\sqlcodegen\code\R1.1\app\obj\Debug\SqlCodeGen.pdb

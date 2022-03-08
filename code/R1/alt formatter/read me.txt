@@ -1,0 +1,16 @@
+This folder contains an example of using the IDataMemberNameFormatter interface to build your own data member formatter.
+
+The purpose of a data member formatter is to format the "structure" of a data member in a class.  Different
+entities have different style guides.  Since it's impossible to predict all of the possible ways the styles might
+be applied, the IDataMemberNameFormatter interface gives users the ability to use their own.
+
+It's really very straight forward to use.   Derive a class from 
+MattRaffelNetCode.Apps.SqlCodeGen.InterfacesIDataMemberNameFormatter as defined in the SqlCodeGenSupport.dll 
+assembly.  By implementing MakeDataMemberName you have a formatter ready.
+
+You will need to update SQLCODEGEN.CONFIG file to know to use your formatter.  In this folder is an example
+of an updated SQLCODEGEN.CONFIG file to use the sample formatter provided.  You also need to copy your assembly,
+containing your class derived from InterfacesIDataMemberNameFormatter into the folder containing the program.
+
+If you wish to use the sample provided, simply copy AlternateMemberFormatter.dll into the SQLCODEGEN.EXE folder, update 
+the config file (or copy the existing one).  I think that works ;)

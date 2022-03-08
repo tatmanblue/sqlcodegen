@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datatypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <DataType SQL="INT" CS="int" CSReaderFunc="GetInt32" />
+    <DataType SQL="TINYINT" CS="short" CSReaderFunc="GetInt16" />
+    <DataType SQL="SMALLINT" CS="int" CSReaderFunc="GetInt32" />
+    <DataType SQL="BIT" CS="bool" CSReaderFunc="GetBoolean" />
+    <DataType SQL="MONEY" CS="decimal" CSReaderFunc="GetDecimal" />
+    <DataType SQL="DECIMAL" CS="decimal" CSReaderFunc="GetDecimal" />
+    <DataType SQL="VARCHAR" CS="string" CSReaderFunc="GetString" />
+    <DataType SQL="CHAR" CS="string" CSReaderFunc="GetString" />
+    <DataType SQL="DATETIME" CS="DateTime" CSReaderFunc="GetDateTime" />
+    <DataType SQL="SMALLDATETIME" CS="DateTime" CSReaderFunc="GetDateTime" />
+</datatypes>

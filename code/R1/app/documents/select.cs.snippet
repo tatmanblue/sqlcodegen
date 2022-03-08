@@ -1,0 +1,23 @@
+        /// <summary>
+        /// 
+        /// </summary>
+        public void Load(System.Data.SqlClient.SqlConnection connection)
+        {
+            using (System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand())
+            {
+                cmd.Connection = connection;
+                cmd.CommandText = $SQL_STATMENT$;
+                $SQL_PARAMS$
+                System.Data.SqlClient.SqlDataReader reader = cmd.ExecuteReader();
+
+                if (true == reader.Read())
+                {
+                    $ASSIGN_DATA_MEMBERS$
+                }
+
+                reader.Close();
+
+            }
+
+        }
+

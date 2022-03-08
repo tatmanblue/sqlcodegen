@@ -1,0 +1,13 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
+#
+.idea/
+code/R1/bin
+code/R1/dll/obj/
+code/R1/dll/bin/
+code/R1.1/bin
+code/R1.1/dll/obj/
+code/R1.1/dll/bin/
+*.vssscc
+*.pdb

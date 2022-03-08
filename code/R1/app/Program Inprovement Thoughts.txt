@@ -1,0 +1,10 @@
+1) complete the TODOS:  see code.  examples are the table overrides for data type names, code subsitution tags,
+   etc...
+2) Custom logging interface via listener
+3) Dont initialize singleton classes until command line has been processed
+4) Build off of stored procs and views as well as tables
+5) templates can identify what snippets to use rather than assumed snippets
+6) interface for sql parameter formatting as some DB implementations do not support named
+   parameters
+7) current snippet use is hardcoded aka name=CRUDInsert has to be used for insert functions
+   not sure if this is a good idea and might want to look at redesigning this a bit

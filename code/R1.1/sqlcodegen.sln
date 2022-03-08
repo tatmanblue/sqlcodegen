@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4510D08A-DA36-41DB-993C-86450077A12B}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		sqlcodegen.vsmdi = sqlcodegen.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlCodeGen", "app\SqlCodeGen.csproj", "{88A27248-5DC3-4BEB-AB6B-F11ADA53F62E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sqlcodegensupport", "dll\sqlcodegensupport.csproj", "{461358C0-8968-4F3D-B6C1-7CE1BC01CD16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "alternate formatter", "alt formatter\alternate formatter.csproj", "{461358C0-8968-4F3D-CCC1-AAE1BC01CD1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EffiprozSchemaInquiry", "effiproz table inquiry\EffiprozSchemaInquiry.csproj", "{C4D5B65E-7B33-4216-885B-20BC26C4BC22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTesting", "UnitTesting\UnitTesting.csproj", "{895FF565-5E87-4F5F-A12B-90206BC97B84}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs07
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = alt\u0020formatter\\alternate\u0020formatter.csproj
+		SccProjectName1 = alt\u0020formatter
+		SccLocalPath1 = alt\u0020formatter
+		SccProjectUniqueName2 = effiproz\u0020table\u0020inquiry\\EffiprozSchemaInquiry.csproj
+		SccProjectName2 = effiproz\u0020table\u0020inquiry
+		SccLocalPath2 = effiproz\u0020table\u0020inquiry
+		SccProjectUniqueName3 = app\\SqlCodeGen.csproj
+		SccProjectName3 = app
+		SccLocalPath3 = app
+		SccProjectUniqueName4 = dll\\sqlcodegensupport.csproj
+		SccProjectName4 = dll
+		SccLocalPath4 = dll
+		SccProjectUniqueName5 = UnitTesting\\UnitTesting.csproj
+		SccProjectName5 = UnitTesting
+		SccLocalPath5 = UnitTesting
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = sqlcodegen.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DEBUG ALL|Any CPU = DEBUG ALL|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		RELEASE ALL|Any CPU = RELEASE ALL|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88A27248-5DC3-4BEB-AB6B-F11ADA53F62E}.DEBUG ALL|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A27248-5DC3-4BEB-AB6B-F11ADA53F62E}.DEBUG ALL|Any CPU.Build.0 = Debug|Any CPU
+		{88A27248-5DC3-4BEB-AB6B-F11ADA53F62E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A27248-5DC3-4BEB-AB6B-F11ADA53F62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A27248-5DC3-4BEB-AB6B-F11ADA53F62E}.RELEASE ALL|Any CPU.ActiveCfg = Release|Any CPU
+		{88A27248-5DC3-4BEB-AB6B-F11ADA53F62E}.RELEASE ALL|Any CPU.Build.0 = Release|Any CPU
+		{88A27248-5DC3-4BEB-AB6B-F11ADA53F62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A27248-5DC3-4BEB-AB6B-F11ADA53F62E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{461358C0-8968-4F3D-B6C1-7CE1BC01CD16}.DEBUG ALL|Any CPU.ActiveCfg = Debug|Any CPU
+		{461358C0-8968-4F3D-B6C1-7CE1BC01CD16}.DEBUG ALL|Any CPU.Build.0 = Debug|Any CPU
+		{461358C0-8968-4F3D-B6C1-7CE1BC01CD16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461358C0-8968-4F3D-B6C1-7CE1BC01CD16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461358C0-8968-4F3D-B6C1-7CE1BC01CD16}.RELEASE ALL|Any CPU.ActiveCfg = Release|Any CPU
+		{461358C0-8968-4F3D-B6C1-7CE1BC01CD16}.RELEASE ALL|Any CPU.Build.0 = Release|Any CPU
+		{461358C0-8968-4F3D-B6C1-7CE1BC01CD16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461358C0-8968-4F3D-B6C1-7CE1BC01CD16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{461358C0-8968-4F3D-CCC1-AAE1BC01CD1F}.DEBUG ALL|Any CPU.ActiveCfg = Debug|Any CPU
+		{461358C0-8968-4F3D-CCC1-AAE1BC01CD1F}.DEBUG ALL|Any CPU.Build.0 = Debug|Any CPU
+		{461358C0-8968-4F3D-CCC1-AAE1BC01CD1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461358C0-8968-4F3D-CCC1-AAE1BC01CD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461358C0-8968-4F3D-CCC1-AAE1BC01CD1F}.RELEASE ALL|Any CPU.ActiveCfg = Release|Any CPU
+		{461358C0-8968-4F3D-CCC1-AAE1BC01CD1F}.RELEASE ALL|Any CPU.Build.0 = Release|Any CPU
+		{461358C0-8968-4F3D-CCC1-AAE1BC01CD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461358C0-8968-4F3D-CCC1-AAE1BC01CD1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D5B65E-7B33-4216-885B-20BC26C4BC22}.DEBUG ALL|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D5B65E-7B33-4216-885B-20BC26C4BC22}.DEBUG ALL|Any CPU.Build.0 = Debug|Any CPU
+		{C4D5B65E-7B33-4216-885B-20BC26C4BC22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D5B65E-7B33-4216-885B-20BC26C4BC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D5B65E-7B33-4216-885B-20BC26C4BC22}.RELEASE ALL|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D5B65E-7B33-4216-885B-20BC26C4BC22}.RELEASE ALL|Any CPU.Build.0 = Release|Any CPU
+		{C4D5B65E-7B33-4216-885B-20BC26C4BC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D5B65E-7B33-4216-885B-20BC26C4BC22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{895FF565-5E87-4F5F-A12B-90206BC97B84}.DEBUG ALL|Any CPU.ActiveCfg = Debug|Any CPU
+		{895FF565-5E87-4F5F-A12B-90206BC97B84}.DEBUG ALL|Any CPU.Build.0 = Debug|Any CPU
+		{895FF565-5E87-4F5F-A12B-90206BC97B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895FF565-5E87-4F5F-A12B-90206BC97B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895FF565-5E87-4F5F-A12B-90206BC97B84}.RELEASE ALL|Any CPU.ActiveCfg = Release|Any CPU
+		{895FF565-5E87-4F5F-A12B-90206BC97B84}.RELEASE ALL|Any CPU.Build.0 = Release|Any CPU
+		{895FF565-5E87-4F5F-A12B-90206BC97B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895FF565-5E87-4F5F-A12B-90206BC97B84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

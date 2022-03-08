@@ -1,0 +1,2 @@
+1) Default.datatypes file does not contain entries for all "standard" field types
+2) SQL generation is not complete if no primary key exists on the table

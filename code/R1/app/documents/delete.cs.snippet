@@ -1,0 +1,17 @@
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="connection"></param>
+        private void Delete(System.Data.SqlClient.SqlConnection connection)
+        {
+            using (System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand())
+            {
+                cmd.Connection = connection;
+                cmd.CommandText = $SQL_STATMENT$;
+$SQL_PARAMS$
+                cmd.ExecuteNonQuery();
+
+            }
+
+        }
+

@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BigWoo.Apps.SqlCodeGen.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TemplatePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">d:\temp\templates</Value>
+    </Setting>
+    <Setting Name="DefaultDataTypesFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.\default.datatypes</Value>
+    </Setting>
+    <Setting Name="ConnectionFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source={0};Initial Catalog={1};Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="OutputPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">d:\temp\templates\output</Value>
+    </Setting>
+    <Setting Name="DefaultNameSpace" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">mattraffel.com.CodeGenTest</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
